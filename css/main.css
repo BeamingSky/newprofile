@@ -395,6 +395,9 @@ ul.sub-menu {
   position: absolute;
   top: 40px;
 }
+.home-social {
+  z-index: 999;
+}
 .menu-two .home-social li + li {
   margin-left: 15px;
 }
