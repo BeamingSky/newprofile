@@ -4,6 +4,12 @@
     margin-top: -6rem;
   }
 }
+
+.banner-info {
+  bottom: 20px !important; /* Adjusted to prevent overlap */
+  padding-left: 10px !important; /* Reduced padding */
+}
+
 @media (max-width: 767px) {
   .banner-info h3 {
     font-size: 14px;
@@ -11,9 +17,9 @@
   }
 }
 @media (max-width: 479px) {
-  .banner-info h2 {
-    font-size: 36px;
-    line-height: 36px;
+  .banner-info h3 {
+    font-size: 12px; /* Adjusted font size */
+    letter-spacing: 8px; /* Maintain letter spacing */
   }
 }
 @media (max-width: 479px) {
@@ -265,17 +271,18 @@
   }
   .banner-info {
     bottom: 30px;
+    padding-left: 15px !important;
   }
   .banner-info h1 {
-    font-size: 30px;
+    font-size: 28px;
   }
   .banner-info h2 {
-    font-size: 50px;
-    line-height: 25px;
+    font-size: 40px;
+    line-height: 45px;
   }
   .banner-info h3 {
     font-size: 14px;
-    letter-spacing: 15px;
+    /* letter-spacing: 15px; */
   }
   .section-padding {
     overflow: hidden;
@@ -567,9 +574,9 @@
 /* XS Portrait */
 @media (max-width: 479px) {
   .banner-info h2 {
-    font-size: 48px;
-    line-height: 15px;
-  }
+    font-size: 36px; /* Reduced size */
+    line-height: 40px; /* Adjust line height */
+  } 
   .banner-info h3 {
     letter-spacing: 8px;
   }
